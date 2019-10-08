@@ -1,0 +1,18 @@
+{
+  "name": "gromlin-storefront",
+  "version": "1.0.0",
+  "description": "Front for gromlin shop",
+  "author": "samsour",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@woocommerce/woocommerce-rest-api": "^1.0.1",
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {}
+}
