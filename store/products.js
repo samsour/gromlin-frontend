@@ -17,8 +17,8 @@ export const actions = {
                 }
             })
     },
-    async show({ commit }, params) {
-        await api.get(`products/${params.product_id}`)
+    async show({ commit }, id) {
+        await api.get(`products/${id}`)
             .then((res) => {
                 if (res.status === 200) {
                     commit('setProduct', res.data)
